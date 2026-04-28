@@ -242,7 +242,7 @@ export function Hero() {
                         </Button>
                     </motion.div>
                     <motion.div whileHover={{ scale: 1.04 }} whileTap={{ scale: 0.97 }}>
-                        <a href="/Vikash_Vishwakarma_Senior_SDE.pdf" download>
+                        <a href="/VikashSSE_Resume.pdf" download>
                             <Button
                                 size="lg"
                                 variant="outline"

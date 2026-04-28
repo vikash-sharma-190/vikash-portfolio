@@ -16,7 +16,7 @@ type Achievement = {
 const experiences = [
     {
         company: "PepsiCo",
-        role: "Software Engineer",
+        role: "Senior Software Engineer",
         location: "Gurgaon",
         period: "Dec 2022 – Present",
         color: "from-blue-500 to-cyan-500",
@@ -126,7 +126,7 @@ function MetricPill({ label, value }: { label: string; value: string }) {
 }
 
 function ExperienceCard({ exp, index }: { exp: typeof experiences[0]; index: number }) {
-    const [expanded, setExpanded] = useState(index === 0);
+    const [expanded, setExpanded] = useState(true);
 
     return (
         <motion.div
